@@ -64,5 +64,5 @@ cd mood-tracker
 Developed by **Prashant Singh**.
 
 ---
-Feel free to modify and enhance the project as needed! 🚀
+
 
