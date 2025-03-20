@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily MOOd Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <container class="container">
+      <h1>MOOD Tracker</h1>
+      <div class="track">
+        <p>Daily Mood : </p>
+
+        <select onChange="selectEmoji()"name="Mood" id="emoj">
+         
+          <option class="option" value="Netural">Netural 👌</option>
+          <option class="option" value="Sad">Sad 😒</option>
+          <option class="option" value="Happy">Happy 🤣</option>
+          <option class="option" value="Exicted">Exicted 😍</option>
+        </select>
+        <button onClick="moodTracker()" class="button">Submit</button>
+      </div>
+      <h1 class="log">Mood Logs</h1>
+     <div id="box"></div>
+
+    </container>
+    <script src="app.js"></script>
+  </body>
+</html>
